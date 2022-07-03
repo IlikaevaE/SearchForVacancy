@@ -22,19 +22,13 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         DriverSettings.configure();
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
-        //Configuration.baseUrl = App.config.webUrl();
     }
 
-//    @BeforeEach
-//    public void beforeEach() {
-//
-//
-//    }
+    @BeforeEach
+    public void beforeEach() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+    }
 
     @AfterEach
     public void afterEach() {
