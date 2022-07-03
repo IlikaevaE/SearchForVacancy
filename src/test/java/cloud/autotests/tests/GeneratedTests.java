@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GeneratedTests extends TestBase {
     @Test
-    @DisplayName("Opening the start page")
+  //  @DisplayName("Opening the start page")
     void openVacancyPage() {
 
         step("Open the vacancy page hh.ru", () -> {
