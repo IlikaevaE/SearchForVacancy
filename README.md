@@ -1,24 +1,24 @@
 # Проект автоматизированного поиска вакансии на hh.ru
 ## :bookmark_tabs: Основной контент: 
-> :grey_exclamation: [Используемые технологии](#computer-mag_right-используемые-технологии)
+> :radio_button: [Используемые технологии](#computer-mag_right-используемые-технологии)
 > 
 > :radio_button: [Реализация проверок](#ballot_box_with_check-реализация-проверок)
 > 
 > :radio_button: [Команда запуска тестов локально в IntelliJ в терминале](#arrow_forward-команда-запуска-тестов-локально-в-IntelliJ-в-терминале)
 > 
-> :grey_exclamation: [Команда запуска тестов удаленно в Jenkins](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
+> :radio_button: [Команда запуска тестов удаленно в Jenkins](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
 > 
-> :grey_exclamation: [Параметры в Jenkins](#-параметры-в-jenkins)
+> :radio_button: [Параметры в Jenkins](#-параметры-в-jenkins)
 > 
-> :grey_exclamation: [Сборка в Jenkins](#-сборка-в-jenkins)
+> :radio_button: [Сборка в Jenkins](#-сборка-в-jenkins)
 > 
-> :grey_exclamation: [Allure отчет](#orange_square-allure-отчет)
+> :radio_button: [Allure отчет](#orange_square-allure-отчет)
 > 
-> :grey_exclamation: [Allure TestOps отчет](#green_square-allure-testOps-отчет)
+> :radio_button: [Allure TestOps отчет](#green_square-allure-testOps-отчет)
 > 
-> :grey_exclamation: [Отчет о прохождении тестов в Telegram](#-отчет-о-прохождении-тестов-в-telegram)
+> :radio_button: [Отчет о прохождении тестов в Telegram](#-отчет-о-прохождении-тестов-в-telegram)
 > 
-> :grey_exclamation: [Интеграция Allure TestOps с Jira(Ticket Tracking Tool)](#-интеграция-allure-testOps-с-jira-(-ticket-tracking-tool-))
+> :radio_button: [Интеграция Allure TestOps с Jira(Ticket Tracking Tool)](#-интеграция-allure-testOps-с-jira-(-ticket-tracking-tool-))
  
 # :computer: :mag_right: Используемые технологии
 
@@ -26,7 +26,23 @@
 
 # :arrow_forward: Команда запуска тестов локально в IntelliJ в терминале
 
+```bash
+gradle clean test
+```
+
 # :repeat_one: Команда запуска тестов удаленно в Jenkins
+
+```bash
+clean
+test
+-Dbrowser=${BROWSER}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserMobileView="${BROWSER_MOBILE}"
+-DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dthreads=${THREADS}
+```
 
 # Параметры в Jenkins
 
