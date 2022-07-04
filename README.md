@@ -8,9 +8,9 @@
 > 
 > :grey_exclamation: [Команда запуска тестов удаленно в Jenkins](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
 > 
-> :grey_exclamation: [Параметры в Jenkins](#-параметры-в-Jenkins)
+> :grey_exclamation: [Параметры в Jenkins](#-параметры-в-jenkins)
 > 
-> :grey_exclamation: [Сборка в Jenkins](#-сборка-в-Jenkins)
+> :grey_exclamation: [Сборка в Jenkins](#-сборка-в-jenkins)
 > 
 > :grey_exclamation: [Allure отчет](#orange_square-allure-отчет)
 > 
@@ -18,7 +18,7 @@
 > 
 > :grey_exclamation: [Отчет о прохождении тестов в Telegram](#-отчет-о-прохождении-тестов-в-telegram)
 > 
-> :grey_exclamation: [Интеграция Allure TestOps с Jira(Ticket Tracking Tool)](#-интеграция-allure-testOps-с-jira(Ticket Tracking Tool))
+> :grey_exclamation: [Интеграция Allure TestOps с Jira(Ticket Tracking Tool)](#-интеграция-allure-testOps-с-jira-(-ticket-tracking-tool-))
  
 # :computer: :mag_right: Используемые технологии
 
