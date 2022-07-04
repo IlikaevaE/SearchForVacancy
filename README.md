@@ -18,7 +18,7 @@
 > 
 > :radio_button: [***Отчет о прохождении тестов в Telegram***](#отчет-о-прохождении-тестов-в-telegram)
 > 
-> :radio_button: [***Интеграция Allure TestOps с Jira(Ticket Tracking Tool)***](#интеграция-allure-testOps-с-jira(Ticket-tracking-tool-))
+> :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#интеграция-allure-testOps-с-ticket-tracking-tool-jira)
  
 # :computer: :mag_right: Используемые технологии
 
@@ -54,7 +54,7 @@ test
 
 # Отчет о прохождении тестов в Telegram
 
-# Интеграция Allure TestOps с Jira(Ticket Tracking Tool)
+# Интеграция Allure TestOps с Ticket Tracking Tool Jira
 
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
