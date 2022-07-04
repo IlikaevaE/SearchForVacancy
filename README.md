@@ -1,15 +1,15 @@
 # Проект автоматизированного поиска вакансии на hh.ru
 ## :bookmark_tabs: Основной контент: 
-- ### Используемые технологии
-- ### Реализация проверок
-- ### Команда запуска тестов локально в IntelliJ в терминале
-- ### Команда запуска тестов удаленно в Jenkins 
-- ### Параметры в Jenkins
-- ### Сборка в Jenkins
-- ### Allure отчет
-- ### Allure TestOps отчет
-- ### Отчет о прохождении тестов в Telegram
-- ### Интеграция Allure TestOps с Jira(Ticket Tracking Tool)
+- ### :grey_exclamation: [Используемые технологии]
+- ### :grey_exclamation: Реализация проверок
+- ### :grey_exclamation: Команда запуска тестов локально в IntelliJ в терминале
+- ### :grey_exclamation: Команда запуска тестов удаленно в Jenkins 
+- ### :grey_exclamation: Параметры в Jenkins
+- ### :grey_exclamation: Сборка в Jenkins
+- ### :grey_exclamation: Allure отчет
+- ### :grey_exclamation: Allure TestOps отчет
+- ### :grey_exclamation: Отчет о прохождении тестов в Telegram
+- ### :grey_exclamation: Интеграция Allure TestOps с Jira(Ticket Tracking Tool)
 
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
