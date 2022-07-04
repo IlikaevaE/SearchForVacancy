@@ -1,4 +1,16 @@
-# Project in Allure TestOps with manual & automated tests
+# Проект автоматизированного поиска вакансии на hh.ru
+## :drop_of_blood: Основной контент: 
+- ### Используемые технологии
+- ### Реализация проверок
+- ### Команда запуска тестов локально в IntelliJ в терминале
+- ### Команда запуска тестов удаленно в Jenkins 
+- ### Параметры в Jenkins
+- ### Сборка в Jenkins
+- ### Allure отчет
+- ### Allure TestOps отчет
+- ### Отчет о прохождении тестов в Telegram
+- ### Интеграция Allure TestOps с Jira(Ticket Tracking Tool)
+
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
 # Jenkins job
