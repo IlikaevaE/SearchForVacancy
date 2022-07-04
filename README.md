@@ -22,7 +22,14 @@
  
 # :computer: :mag_right: Используемые технологии
 <p align="center">
-<img width="6%" title="Allure Report" src="images/logo/Allure_TestOps.svg">
+<img width="6%" title="IntelliJ" src="images/logo/IntelliJ.svg">
+<img width="6%" title="Java" src="images/logo/Java.svg">
+<img width="6%" title="Gradle" src="images/logo/Gradle.svg">
+<img width="6%" title="GitHub" src="images/logo/github.svg">
+<img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
+<img width="6%" title="Allure Report" src="images/logo/Allure.svg">
+
+
 
 </p>
 
