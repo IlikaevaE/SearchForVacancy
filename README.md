@@ -21,6 +21,10 @@
 > :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
  
 # :computer: :mag_right: Используемые технологии
+<p align="center">
+<img width="6%" title="Allure Report" src="images/logo/Allure.svg">
+
+</p>
 
 # :ballot_box_with_check: Реализация проверок
 
