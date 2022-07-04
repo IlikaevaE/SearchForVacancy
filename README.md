@@ -16,9 +16,9 @@
 > 
 > :radio_button: [***Allure TestOps отчет***](#green_square-allure-testOps-отчет)
 > 
-> :radio_button: [***Отчет о прохождении тестов в Telegram***](#-отчет-о-прохождении-тестов-в-telegram)
+> :radio_button: [***Отчет о прохождении тестов в Telegram***](#отчет-о-прохождении-тестов-в-telegram)
 > 
-> :radio_button: [***Интеграция Allure TestOps с Jira(Ticket Tracking Tool)***](#-интеграция-allure-testOps-с-jira-(-ticket-tracking-tool-))
+> :radio_button: [***Интеграция Allure TestOps с Jira(Ticket Tracking Tool)***](#интеграция-allure-testOps-с-jira-(-ticket-tracking-tool-))
  
 # :computer: :mag_right: Используемые технологии
 
