@@ -8,9 +8,9 @@
 > 
 > :radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
 > 
-> :radio_button: [***Параметры в Jenkins***](#-параметры-в-jenkins)
+> :radio_button: [***Параметры в Jenkins***](#label-параметры-в-jenkins)
 > 
-> :radio_button: [***Сборка в Jenkins***](#-сборка-в-jenkins)
+> :radio_button: [***Сборка в Jenkins***](#сборка-в-jenkins)
 > 
 > :radio_button: [***Allure отчет***](#orange_square-allure-отчет)
 > 
@@ -44,7 +44,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-# Параметры в Jenkins
+# :label: Параметры в Jenkins
 
 # Сборка в Jenkins
 
