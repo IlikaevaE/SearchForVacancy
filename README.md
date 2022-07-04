@@ -10,15 +10,15 @@
 > 
 > :radio_button: [***Параметры в Jenkins***](#label-параметры-в-jenkins)
 > 
-> :radio_button: [***Сборка в Jenkins***](#сборка-в-jenkins)
+> :radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
 > 
-> :radio_button: [***Allure отчет***](#orange_square-allure-отчет)
+> :radio_button: [***Allure отчет***](#bar_chart-allure-отчет)
 > 
-> :radio_button: [***Allure TestOps отчет***](#green_square-allure-testOps-отчет)
+> :radio_button: [***Allure TestOps отчет***](#chart_with_upwards_trend-allure-testOps-отчет)
 > 
-> :radio_button: [***Отчет о прохождении тестов в Telegram***](#отчет-о-прохождении-тестов-в-telegram)
+> :radio_button: [***Отчет о прохождении тестов в Telegram***](#envelope-отчет-о-прохождении-тестов-в-telegram)
 > 
-> :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#интеграция-allure-testOps-с-ticket-tracking-tool-jira)
+> :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
  
 # :computer: :mag_right: Используемые технологии
 
@@ -46,15 +46,15 @@ test
 
 # :label: Параметры в Jenkins
 
-# Сборка в Jenkins
+# :package: Сборка в Jenkins
 
-# :orange_square: Allure отчет
+# :bar_chart: Allure отчет
 
-# :green_square: Allure TestOps отчет
+# :chart_with_upwards_trend: Allure TestOps отчет
 
-# Отчет о прохождении тестов в Telegram
+# :envelope: Отчет о прохождении тестов в Telegram
 
-# Интеграция Allure TestOps с Ticket Tracking Tool Jira
+# :link: Интеграция Allure TestOps с Ticket Tracking Tool Jira
 
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
