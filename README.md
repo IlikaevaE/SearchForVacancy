@@ -22,7 +22,7 @@
  
 # :computer: :mag_right: Используемые технологии
 <p align="center">
-<img width="6%" title="Allure Report" src="images/logo/Allure.svg">
+<img width="6%" title="Allure Report" src="images/logo/Allure_TestOps.svg">
 
 </p>
 
