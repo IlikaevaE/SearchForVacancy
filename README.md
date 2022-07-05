@@ -34,12 +34,14 @@
 <img width="6%" title="Jira Cloud" src="images/logo/Jira.svg">
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
-
-
-
 </p>
 
 # :ballot_box_with_check: Реализация проверок
+### * Проверка перехода на заданную страницу
+### * Проверка нахождение вакансии с нужным именем 
+### * Проверка принадлежности вакансии заданному городу
+### * Проверка принадлежности вакансии заданной компании
+### * Проверка наличия ошибок в консоли
 
 # :arrow_forward: Команда запуска тестов локально в IntelliJ в терминале
 
@@ -62,6 +64,9 @@ test
 ```
 
 # :label: Параметры в Jenkins
+<p align="center">
+  <img src="images/screens/JenkinsPreference.jpg" alt="job" width="800">
+</p>
 
 # :package: Сборка в Jenkins
 
