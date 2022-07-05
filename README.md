@@ -80,7 +80,7 @@ test
 # :envelope: Отчет о прохождении тестов в Telegram
 
 # :link: Интеграция Allure TestOps с Ticket Tracking Tool Jira
-_Благодаря интеграции Allure TestOps с Jira Cloud тестовые случаи и отчет о прохожденни тетов из Allure TestOps можно отобразить в Jira Cloud._
+_Благодаря интеграции Allure TestOps с Jira Cloud тестовые случаи и отчет о прохожденни тестов из Allure TestOps можно отобразить в Jira Cloud._
 <p align="center">
   <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
 </p>
