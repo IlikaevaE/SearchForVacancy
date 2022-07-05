@@ -8,9 +8,9 @@
 > 
 > :radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
 > 
-> :radio_button: [***Запуск с параметрами в Jenkins***](#label-запуск-с-параметрами-в-jenkins)
-> 
 > :radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
+> 
+> :radio_button: [***Запуск с параметрами в Jenkins***](#label-запуск-с-параметрами-в-jenkins)
 > 
 > :radio_button: [***Allure отчет***](#bar_chart-allure-отчет)
 > 
@@ -64,14 +64,17 @@ test
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
 -Dthreads=${THREADS}
 ```
+# :package: Сборка в Jenkins
+
+<p align="center">
+  <img src="images/screens/JenkinsJob.jpg" alt="job" width="800">
+</p>
 
 # :label: Запуск с параметрами в Jenkins
 
 <p align="center">
   <img src="images/screens/JenkinsPreference.jpg" alt="job" width="800">
 </p>
-
-# :package: Сборка в Jenkins
 
 # :bar_chart: Allure отчет
 
