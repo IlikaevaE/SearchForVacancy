@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/87646825/177313781-329bd71d-7b2d-44c3-9f91-55c5a623999b.mp4
+
 # Проект автоматизированного поиска вакансии на hh.ru
 ## :bookmark_tabs: Основной контент: 
 > :radio_button: [***Используемые технологии***](#computer-mag_right-используемые-технологии)
