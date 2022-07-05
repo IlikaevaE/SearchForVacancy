@@ -122,6 +122,4 @@ test
 
 ## :clapper: _Видео прохождения тестов_
 
-<p align="center">
-<img title="Selenoid Video" src="images/VideoResults.mp4" width="250" height="153"  alt="video"> 
-</p>
+<div><video controls src="images/VideoResults.mp4" muted="false"></video></div>
