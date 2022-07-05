@@ -19,7 +19,8 @@
 > :radio_button: [***Отчет о прохождении тестов в Telegram***](#envelope-отчет-о-прохождении-тестов-в-telegram)
 > 
 > :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
- 
+> 
+> :radio_button: [***Selenoid: видео прохождения тестов***](#clapper-selenoid:-видео-прохождения-тестов)
 ## :computer: :mag_right: _Используемые технологии_
 <p align="center">
 <img width="6%" title="IntelliJ" src="images/logo/IntelliJ.svg">
@@ -81,7 +82,7 @@ test
 ## :chart_with_upwards_trend: _Allure TestOps отчет_
 
 ## :envelope: _Отчет о прохождении тестов в Telegram_
-> _С помощью созданного бота в Телеграм приходят уведомления о результат прохождения тестов_
+> _С помощью созданного бота в Телеграм приходят уведомления о результатах прохождения тестов_
 
 <p align="center">
   <img src="images/screens/TelegramBot.jpg" alt="job" width="800">
@@ -93,6 +94,7 @@ test
   <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
 </p>
 
+## :clapper: _Selenoid: видео прохождения тестов_
 
 
 
