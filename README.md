@@ -20,7 +20,7 @@
 > 
 > :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
  
-# :computer: :mag_right: Используемые технологии
+## :computer: :mag_right: _Используемые технологии_
 <p align="center">
 <img width="6%" title="IntelliJ" src="images/logo/IntelliJ.svg">
 <img width="6%" title="Java" src="images/logo/Java.svg">
@@ -36,14 +36,14 @@
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
 </p>
 
-# :ballot_box_with_check: Реализация проверок
+## :ballot_box_with_check: _Реализация проверок_
 ### :bulb: Проверка перехода на заданную страницу
 ### :bulb: Проверка нахождение вакансии с нужным именем 
 ### :bulb: Проверка принадлежности вакансии заданному городу
 ### :bulb: Проверка принадлежности вакансии заданной компании
 ### :bulb: Проверка наличия ошибок в консоли
 
-# :arrow_forward: Команда запуска тестов локально в IntelliJ в терминале
+## :arrow_forward: _Команда запуска тестов локально в IntelliJ в терминале_
 
 ```bash
 gradle clean test
