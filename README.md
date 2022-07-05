@@ -36,7 +36,7 @@
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
 </p>
 
-## :ballot_box_with_check: **Реализация проверок**
+## :ballot_box_with_check: _Реализация проверок_
 ### :bulb: Проверка перехода на заданную страницу
 ### :bulb: Проверка нахождение вакансии с нужным именем 
 ### :bulb: Проверка принадлежности вакансии заданному городу
@@ -49,7 +49,7 @@
 gradle clean test
 ```
 
-# :repeat_one: Команда запуска тестов удаленно в Jenkins
+## :repeat_one: _Команда запуска тестов удаленно в Jenkins_
 
 > _Для Запуска тестов удаленным путем используется настраиваемые параметры в Jenkins:_  
 
@@ -64,26 +64,31 @@ test
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
 -Dthreads=${THREADS}
 ```
-# :package: Сборка в Jenkins
+## :package: _Сборка в Jenkins_
 
 <p align="center">
   <img src="images/screens/JenkinsJob.jpg" alt="job" width="800">
 </p>
 
-# :label: Запуск с параметрами в Jenkins
+## :label: _Запуск с параметрами в Jenkins_
 
 <p align="center">
   <img src="images/screens/JenkinsPreference.jpg" alt="job" width="800">
 </p>
 
-# :bar_chart: Allure отчет
+## :bar_chart: _Allure отчет_
 
-# :chart_with_upwards_trend: Allure TestOps отчет
+## :chart_with_upwards_trend: _Allure TestOps отчет_
 
-# :envelope: Отчет о прохождении тестов в Telegram
+## :envelope: _Отчет о прохождении тестов в Telegram_
+> _С помощью созданного бота в Телеграм приходят уведомления о результат прохождения тестов_
 
-# :link: Интеграция Allure TestOps с Ticket Tracking Tool Jira
-_Благодаря интеграции Allure TestOps с Jira Cloud тестовые случаи и отчет о прохожденни тестов из Allure TestOps можно отобразить в Jira Cloud._
+<p align="center">
+  <img src="images/screens/TelegramBot.jpg" alt="job" width="800">
+</p>
+
+## :link: _Интеграция Allure TestOps с Ticket Tracking Tool Jira_
+> _Благодаря интеграции Allure TestOps с Jira Cloud тестовые случаи и отчет о прохожденни тестов из Allure TestOps можно отобразить в Jira Cloud._
 <p align="center">
   <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
 </p>
