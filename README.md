@@ -20,7 +20,7 @@
 > 
 > :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
 > 
-> :radio_button: [***Selenoid: видео прохождения тестов***](#clapper-selenoid-:-видео-прохождения-тестов)
+> :radio_button: [***Видео прохождения тестов***](#clapper-видео-прохождения-тестов)
 > 
 
 ## :computer: :mag_right: _Используемые технологии_
@@ -96,7 +96,7 @@ test
   <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
 </p>
 
-## :clapper: _Selenoid: видео прохождения тестов_
+## :clapper: _Видео прохождения тестов_
 
 
 
