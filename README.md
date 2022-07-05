@@ -81,7 +81,31 @@ test
 
 ## :bar_chart: _Allure отчет_
 
+> _Тест кейсы в Allure Report_
+
+<p align="center">
+  <img src="images/screens/TestCasesAllure.jpg" alt="job" width="800">
+</p>
+
+> _Тест кейсы, включая результаты прохождения: Screen, Video_
+
+<p align="center">
+  <img src="images/screens/AllureResult.jpg" alt="job" width="800">
+</p>
+
+> _Графики прохождения тестов_
+
+<p align="center">
+  <img src="images/screens/AllureGraphs.jpg" alt="job" width="800">
+</p>
+
 ## :chart_with_upwards_trend: _Allure TestOps отчет_
+
+> _Тест кейсы в Allure TestOps_
+
+<p align="center">
+  <img src="images/screens/TestCasesTestOps.jpg" alt="job" width="800">
+</p>
 
 ## :envelope: _Отчет о прохождении тестов в Telegram_
 > _С помощью созданного бота в Телеграм приходят уведомления о результатах прохождения тестов_
@@ -97,36 +121,3 @@ test
 </p>
 
 ## :clapper: _Видео прохождения тестов_
-
-
-
-
-
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
-
-# Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
-
-
-
-### For run remote tests need fill remote.properties or to pass value:
-
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
-
-
-
-
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
-```
-
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
