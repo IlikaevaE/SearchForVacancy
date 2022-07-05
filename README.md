@@ -81,19 +81,19 @@ test
 
 ## :bar_chart: _Allure отчет_
 
-> _Тест кейсы в Allure Report_
+#### Тест кейсы в Allure Report:
 
 <p align="center">
   <img src="images/screens/TestCasesAllure.jpg" alt="job" width="800">
 </p>
 
-> _Тест кейсы, включая результаты прохождения: Screen, Video_
+#### Тест кейсы, включая результаты прохождения: Screen, Video:
 
 <p align="center">
   <img src="images/screens/AllureResult.jpg" alt="job" width="800">
 </p>
 
-> _Графики прохождения тестов_
+#### Графики прохождения тестов:
 
 <p align="center">
   <img src="images/screens/AllureGraphs.jpg" alt="job" width="800">
@@ -101,7 +101,7 @@ test
 
 ## :chart_with_upwards_trend: _Allure TestOps отчет_
 
-> _Тест кейсы в Allure TestOps_
+#### Тест кейсы в Allure TestOps:
 
 <p align="center">
   <img src="images/screens/TestCasesTestOps.jpg" alt="job" width="800">
