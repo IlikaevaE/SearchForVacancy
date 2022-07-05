@@ -8,7 +8,7 @@
 > 
 > :radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
 > 
-> :radio_button: [***Параметры в Jenkins***](#label-параметры-в-jenkins)
+> :radio_button: [***Запуск с параметрами в Jenkins***](#label-запуск-с-параметрами-в-jenkins)
 > 
 > :radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
 > 
@@ -51,6 +51,8 @@ gradle clean test
 
 # :repeat_one: Команда запуска тестов удаленно в Jenkins
 
+> _Для Запуска тестов удаленным путем используется настраиваемые параметры в Jenkins:_  
+
 ```bash
 clean
 test
@@ -63,7 +65,8 @@ test
 -Dthreads=${THREADS}
 ```
 
-# :label: Параметры в Jenkins
+# :label: Запуск с параметрами в Jenkins
+
 <p align="center">
   <img src="images/screens/JenkinsPreference.jpg" alt="job" width="800">
 </p>
@@ -77,6 +80,15 @@ test
 # :envelope: Отчет о прохождении тестов в Telegram
 
 # :link: Интеграция Allure TestOps с Ticket Tracking Tool Jira
+_Благодаря интеграции Allure TestOps с Jira Cloud тестовые случаи и отчет о прохожденни тетов из Allure TestOps можно отобразить в Jira Cloud._
+<p align="center">
+  <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
+</p>
+
+
+
+
+
 
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
@@ -84,7 +96,6 @@ test
 <a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
 
 
-# USAGE examples
 
 ### For run remote tests need fill remote.properties or to pass value:
 
@@ -97,20 +108,6 @@ test
 * threads (number of threads)
 
 
-Run tests with filled remote.properties:
-```bash
-gradle clean test
-```
-
-Run tests with not filled remote.properties:
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
-
-Serve report:
-```bash
-allure serve build/allure-results
-```
 
 
 ###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
