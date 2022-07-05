@@ -126,4 +126,4 @@ test
 
 ## :clapper: _Видео прохождения тестов_
 
-<div><video controls src="images/VideoResults.mp4" muted="false"></video></div>(https://user-images.githubusercontent.com/87646825/177313781-329bd71d-7b2d-44c3-9f91-55c5a623999b.mp4)
+[<div><video controls src="images/VideoResults.mp4" muted="false"></video></div>](https://user-images.githubusercontent.com/87646825/177313781-329bd71d-7b2d-44c3-9f91-55c5a623999b.mp4)
