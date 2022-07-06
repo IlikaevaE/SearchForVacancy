@@ -85,6 +85,12 @@ test
 
 ## :bar_chart: _Allure отчет_
 
+### Общее представление о прохождении тестов с дэшбордами и виджитами: 
+
+<p align="center">
+  <img src="images/screens/AllureOverview.jpg" alt="job" width="800">
+</p>
+
 #### Тест кейсы в Allure Report:
 
 <p align="center">
@@ -98,7 +104,7 @@ test
 </p>
 
 #### Графики прохождения тестов:
-
+> _Графики позволяют представить статистику прохождения тестов, включая важные метрики Status, Severity, Duration_
 <p align="center">
   <img src="images/screens/AllureGraphs.jpg" alt="job" width="800">
 </p>
