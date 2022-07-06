@@ -85,7 +85,7 @@ test
 
 ## :bar_chart: _Allure отчет_
 
-### Общее представление о прохождении тестов с дэшбордами и виджитами: 
+### Общее представление о прохождении тестов с дэшбордами и виджетами: 
 
 <p align="center">
   <img src="images/screens/AllureOverview.jpg" alt="job" width="800">
