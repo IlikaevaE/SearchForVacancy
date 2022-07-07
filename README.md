@@ -131,3 +131,7 @@ test
 </p>
 
 ## :clapper: _Видео прохождения тестов_
+
+<p align="center">
+<img title="Video Result" src="images/video/VideoResults.gif" width="250" height="153"  alt="video">
+</p>
