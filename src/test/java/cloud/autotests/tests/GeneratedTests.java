@@ -16,15 +16,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GeneratedTests extends TestBase {
     private final String BASEURL = "https://voronezh.hh.ru/";
-    private final String SECOND_URL = "https://voronezh.hh.ru/search/vacancy?text=selenide&from=suggest_post&fromSearchLine=true&area=26";
+    private final String SECOND_URL = "https://voronezh.hh.ru/search/vacancy?text=selenium&from=suggest_post&fromSearchLine=true&area=26";
     private final String BASE_TEXT = "Работа найдется для каждого";
-    private final String SEARCH_VALUE = "Selenide";
-    private final String VACANCY_NAME = "QA Automation Engineer (Java) / инженер по автоматизированному тестированию";
+    private final String SEARCH_VALUE = "Selenium";
+    private final String VACANCY_NAME = "QA Automation Engineer / инженер по автоматизированному тестированию";
     private final String ANSWER_VACANCY = "Откликнуться";
-    private final String PARAMETER_1 = "Можно работать из дома";
-    private final String PARAMETER_2 = "Показать контакты";
+    private final String PARAMETER_1 = "Отклик без резюме";
+    private final String PARAMETER_2 = "Будьте первыми";
     private final String CITY_NAME = "Воронеж";
-    private final String COMPANY_NAME = "ITooLabs";
+    private final String COMPANY_NAME = "ООО «ОФИСМАГ», IT";
 
     @Test
     @DisplayName("Проверяем работу сайта вакансий")
@@ -41,7 +41,7 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Ищем вакансию по скилу Selenide")
+    @DisplayName("Ищем вакансию по скилу Selenium")
     void searchForVacancy() {
         step("Открываем сайт вакансий hh.ru", () -> {
             open(BASEURL);
@@ -49,7 +49,7 @@ public class GeneratedTests extends TestBase {
         step("Ставим курсор в поле для поиска", () -> {
             $("[id=a11y-search-input]").click();
         });
-        step("Вводим значение \"Selenide\"", () -> {
+        step("Вводим значение \"Selenium\"", () -> {
             $("[id=a11y-search-input]").sendKeys(SEARCH_VALUE);
         });
 
@@ -58,6 +58,7 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Проверяем, что вакансия с заданными параметрами существует", () -> {
+            $("h3.bloko-header-section-3").shouldHave(Condition.text(VACANCY_NAME));
             $(".vacancy-serp-content").shouldHave(Condition.text(VACANCY_NAME))
                     .shouldHave(Condition.text(ANSWER_VACANCY))
                     .shouldHave(Condition.text(PARAMETER_1))
@@ -71,7 +72,7 @@ public class GeneratedTests extends TestBase {
         step("Открываем сайт вакансий hh.ru", () -> {
             open(BASEURL);
         });
-        step("Ищем вакансию с ключом \"Selenide\"", () -> {
+        step("Ищем вакансию с ключом \"Selenium\"", () -> {
             $("[id=a11y-search-input]").click();
             $("[id=a11y-search-input]").sendKeys(SEARCH_VALUE);
             $(".supernova-search-group__input").submit();
@@ -82,12 +83,12 @@ public class GeneratedTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверяем принадлежность вакансии компании ITooLabs")
+    @DisplayName("Проверяем принадлежность вакансии компании ОФИСМАГ")
     void checkCompany() {
         step("Открываем сайт вакансий hh.ru", () -> {
             open(SECOND_URL);
         });
-        step("Проверяем, что вакансия принадлежить заданной компании", () -> {
+        step("Проверяем, что вакансия принадлежит заданной компании", () -> {
             $(".vacancy-serp-item-body").shouldBe(Condition.text(COMPANY_NAME));
         });
     }
