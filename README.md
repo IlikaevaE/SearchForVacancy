@@ -1,28 +1,17 @@
-# Автоматизация тестирования на примере поиска работы на hh.ru
+# Автоматизация тестирования на примере поиска работы на hh.ru <img width="40%" title="HH.ru" src="images/logo/HeadHunter_logo.png">
 
 # <a name="Содержание">Содержание:</a>
-+ [***Используемые технологии***](#computer-mag_right-используемые-технологии)
-> 
-> :radio_button: [***Реализация проверок***](#ballot_box_with_check-реализация-проверок)
-> 
-> :radio_button: [***Команда запуска тестов локально в IntelliJ в терминале***](#arrow_forward-команда-запуска-тестов-локально-в-IntelliJ-в-терминале)
-> 
-> :radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
-> 
-> :radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
-> 
-> :radio_button: [***Запуск с параметрами в Jenkins***](#label-запуск-с-параметрами-в-jenkins)
-> 
-> :radio_button: [***Allure отчет***](#bar_chart-allure-отчет)
-> 
-> :radio_button: [***Allure TestOps отчет***](#chart_with_upwards_trend-allure-testOps-отчет)
-> 
-> :radio_button: [***Отчет о прохождении тестов в Telegram***](#envelope-отчет-о-прохождении-тестов-в-telegram)
-> 
-> :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
-> 
-> :radio_button: [***Видео прохождения тестов***](#clapper-видео-прохождения-тестов)
-> 
++ [Используемые технологии](#computer-mag_right-используемые-технологии) 
++ [Реализация проверок](#ballot_box_with_check-реализация-проверок)
++ [Команда запуска тестов локально в IntelliJ в терминале](#arrow_forward-команда-запуска-тестов-локально-в-IntelliJ-в-терминале)
++ [Команда запуска тестов удаленно в Jenkins](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
++ [Сборка в Jenkins](#package-сборка-в-jenkins)
++ [Запуск с параметрами в Jenkins](#label-запуск-с-параметрами-в-jenkins)
++ [Allure отчет](#bar_chart-allure-отчет)
++ [Allure TestOps отчет](#chart_with_upwards_trend-allure-testOps-отчет)
++ [Отчет о прохождении тестов в Telegram](#envelope-отчет-о-прохождении-тестов-в-telegram)
++ [Интеграция Allure TestOps с Ticket Tracking Tool Jira](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
++ [Видео прохождения тестов](#clapper-видео-прохождения-тестов)
 
 ## :computer: :mag_right: _Используемые технологии_
 <p align="center">
