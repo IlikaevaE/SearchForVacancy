@@ -1,19 +1,20 @@
-# Автоматизация тестирования на примере поиска работы на hh.ru <img width="10%" title="HH.ru" src="images/logo/HeadHunter_logo.png">
+# Автоматизация тестирования на примере поиска работы на hh.ru <img width="8%" title="HH.ru" src="images/logo/HeadHunter_logo.png">
 
 # <a name="Содержание">Содержание:</a>
-+ [Используемые технологии](#computer-mag_right-используемые-технологии) 
-+ [Реализация проверок](#ballot_box_with_check-реализация-проверок)
-+ [Команда запуска тестов локально в IntelliJ в терминале](#arrow_forward-команда-запуска-тестов-локально-в-IntelliJ-в-терминале)
-+ [Команда запуска тестов удаленно в Jenkins](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins) 
-+ [Сборка в Jenkins](#package-сборка-в-jenkins)
-+ [Запуск с параметрами в Jenkins](#label-запуск-с-параметрами-в-jenkins)
-+ [Allure отчет](#bar_chart-allure-отчет)
-+ [Allure TestOps отчет](#chart_with_upwards_trend-allure-testOps-отчет)
-+ [Отчет о прохождении тестов в Telegram](#envelope-отчет-о-прохождении-тестов-в-telegram)
-+ [Интеграция Allure TestOps с Ticket Tracking Tool Jira](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
-+ [Видео прохождения тестов](#clapper-видео-прохождения-тестов)
++ [Используемые технологии](#ИспользуемыеТехнологии) 
++ [Реализация проверок](#РеализацияПроверок)
++ [Запуск тестов локально](#ЗапускТестовЛокально)
++ [Запуск тестов из Jenkins](#ЗапускТестовИзJenkins)
++ [Сборка в Jenkins](#СборкаВJenkins)
++ [Запуск задачи в Jenkins с параметрами](#ЗапускЗадачиВJenkinsСПараметрами)
++ [Отчет о результатах прохождения тестов в Allure Report](#ОтчетОРезультатахПрохожденияТестовВAllureReport)
++ [Allure TestOps отчет](#AllureTestOpsОтчет)
++ [Оповещение в Telegram](#ОповещениеВTelegram)
++ [Интеграция с Jira](#ИнтеграцияСJira)
++ [Видео о прохождении тестов](#ВидеоОПрохожденииТестов)
 
-## :computer: :mag_right: _Используемые технологии_
+# <a name="ИспользуемыеТехнологии">Используемые технологии</a>
+
 <p align="center">
 <img width="6%" title="IntelliJ" src="images/logo/IntelliJ.svg">
 <img width="6%" title="Java" src="images/logo/Java.svg">
@@ -29,22 +30,21 @@
 <img width="6%" title="Selenoid" src="images/logo/Selenoid.svg">
 </p>
 
-## :ballot_box_with_check: _Реализация проверок_
-### :bulb: Проверка перехода на заданную страницу
-### :bulb: Проверка нахождение вакансии с нужным именем 
-### :bulb: Проверка принадлежности вакансии заданному городу
-### :bulb: Проверка принадлежности вакансии заданной компании
-### :bulb: Проверка наличия ошибок в консоли
+# <a name="РеализацияПроверок">Реализация проверок</a>
 
-## :arrow_forward: _Команда запуска тестов локально в IntelliJ в терминале_
+> Проверка поиска вакансии с заданным параметром поиска
+> Проверка принадлежности вакансии заданному городу
+> Проверка принадлежности вакансии заданной компании
+> Проверка наличия ошибок в консоли
+
+
+# <a name="ЗапускТестовЛокально">Запуск тестов локально</a>
 
 ```bash
 gradle clean test
 ```
 
-## :repeat_one: _Команда запуска тестов удаленно в Jenkins_
-
-> _Для Запуска тестов удаленным путем используется настраиваемые параметры в Jenkins:_  
+# <a name="ЗапускТестовИзJenkins">Запуск тестов из Jenkins</a>
 
 ```bash
 clean
@@ -57,67 +57,77 @@ test
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
 -Dthreads=${THREADS}
 ```
-## :package: _Сборка в Jenkins_
+
+# <a name="СборкаВJenkins">Сборка в Jenkins</a>
 
 <p align="center">
   <img src="images/screens/JenkinsJob.jpg" alt="job" width="800">
 </p>
 
 
-## :label: _Запуск с параметрами в Jenkins_
+# <a name="ЗапускЗадачиВJenkinsСПараметрами">Запуск задачи в Jenkins с параметрами</a>
+
 
 <p align="center">
   <img src="images/screens/JenkinsPreference.jpg" alt="job" width="800">
 </p>
 
-## :bar_chart: _Allure отчет_
+# <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
 
-### Общее представление о прохождении тестов с дэшбордами и виджетами: 
+
+Общее представление о прохождении тестов с дэшбордами и виджетами: 
 
 <p align="center">
   <img src="images/screens/AllureOverview.jpg" alt="job" width="800">
 </p>
 
-#### Тест кейсы в Allure Report:
+Тест кейсы в Allure Report:
 
 <p align="center">
   <img src="images/screens/TestCasesAllure.jpg" alt="job" width="800">
 </p>
 
-#### Тест кейсы, включая результаты прохождения: Screen, Video:
+#### Тестовые артефакты:
+
+> - Набор тест кейсов
+> - Screenshot
+> - Page Source
+> - Video
 
 <p align="center">
   <img src="images/screens/AllureResult.jpg" alt="job" width="800">
 </p>
 
-#### Графики прохождения тестов:
-> _Графики позволяют представить статистику прохождения тестов, включая важные метрики Status, Severity, Duration_
+
 <p align="center">
   <img src="images/screens/AllureGraphs.jpg" alt="job" width="800">
 </p>
 
-## :chart_with_upwards_trend: _Allure TestOps отчет_
 
-#### Тест кейсы в Allure TestOps:
+# <a name="AllureTestOpsОтчет">Allure TestOps отчет</a>
+
+Тест кейсы в Allure TestOps:
 
 <p align="center">
   <img src="images/screens/TestCasesTestOps.jpg" alt="job" width="800">
 </p>
 
-## :envelope: _Отчет о прохождении тестов в Telegram_
-> _С помощью созданного бота в Телеграм приходят уведомления о результатах прохождения тестов_
+# <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
+
+Отправка уведомлений о результатах прохождения тестов осуществляется с помощью Telegram бота.
 
 <p align="center">
   <img src="images/screens/TelegramBot.jpg" alt="job" width="800">
 </p>
 
-## :link: _Интеграция Allure TestOps с Ticket Tracking Tool Jira_
-> _Благодаря интеграции Allure TestOps с Jira Cloud тестовые случаи и отчет о прохожденни тестов из Allure TestOps можно отобразить в Jira Cloud._
+# <a name="ИнтеграцияСJira">Интеграция с Jira</a>
+Интеграция с Jira позволяет отследить результаты прохождения тестов.
+
 <p align="center">
   <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
 </p>
 
-## :clapper: _Видео прохождения тестов_
+# <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
 
 <p align="center">
 <img title="Video Result" src="images/video/VideoResults.gif" width="250" height="153"  alt="video">
