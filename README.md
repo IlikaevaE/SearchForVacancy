@@ -1,4 +1,4 @@
-# Автоматизация тестирования на примере поиска работы на hh.ru <img width="40%" title="HH.ru" src="images/logo/HeadHunter_logo.png">
+# Автоматизация тестирования на примере поиска работы на hh.ru <img width="10%" title="HH.ru" src="images/logo/HeadHunter_logo.png">
 
 # <a name="Содержание">Содержание:</a>
 + [Используемые технологии](#computer-mag_right-используемые-технологии) 
