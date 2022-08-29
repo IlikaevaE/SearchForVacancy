@@ -113,7 +113,7 @@ test
 Тест кейсы в Allure TestOps:
 
 <p align="center">
-  <img src="images/screens/TestCasesTestOps.jpg" alt="job" width="800">
+  <img src="images/screens/TestCasesTestOps.png" alt="job" width="800">
 </p>
 
 # <a name="ОповещениеВTelegram">Оповещение в Telegram</a>
@@ -121,14 +121,14 @@ test
 Отправка уведомлений о результатах прохождения тестов осуществляется с помощью Telegram бота.
 
 <p align="center">
-  <img src="images/screens/TelegramBot.jpg" alt="job" width="800">
+  <img src="images/screens/TelegramBot.png" alt="job" width="800">
 </p>
 
 # <a name="ИнтеграцияСJira">Интеграция с Jira</a>
 Интеграция с Jira позволяет отследить результаты прохождения тестов.
 
 <p align="center">
-  <img src="images/screens/TestCasesJira.jpg" alt="job" width="800">
+  <img src="images/screens/TestCasesJira.png" alt="job" width="800">
 </p>
 
 # <a name="ВидеоОПрохожденииТестов">Видео о прохождении тестов</a>
