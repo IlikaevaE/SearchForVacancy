@@ -73,7 +73,7 @@ test
 
 
 <p align="center">
-  <img src="images/screens/JenkinsPreference.jpg" alt="job" width="800">
+  <img src="images/screens/JenkinsPreference.png" alt="job" width="800">
 </p>
 
 # <a name="ОтчетОРезультатахПрохожденияТестовВAllureReport">Отчет о результатах прохождения тестов в Allure Report</a>
@@ -82,13 +82,13 @@ test
 Общее представление о прохождении тестов с дэшбордами и виджетами: 
 
 <p align="center">
-  <img src="images/screens/AllureOverview.jpg" alt="job" width="800">
+  <img src="images/screens/AllureOverview.png" alt="job" width="800">
 </p>
 
 Тест кейсы в Allure Report:
 
 <p align="center">
-  <img src="images/screens/TestCasesAllure.jpg" alt="job" width="800">
+  <img src="images/screens/AllureTestCases.png" alt="job" width="800">
 </p>
 
 #### Тестовые артефакты:
@@ -99,12 +99,12 @@ test
 > - Video
 
 <p align="center">
-  <img src="images/screens/AllureResult.jpg" alt="job" width="800">
+  <img src="images/screens/AllureResult.png" alt="job" width="800">
 </p>
 
 
 <p align="center">
-  <img src="images/screens/AllureGraphs.jpg" alt="job" width="800">
+  <img src="images/screens/AllureGraphs.png" alt="job" width="800">
 </p>
 
 
