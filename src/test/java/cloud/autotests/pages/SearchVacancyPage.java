@@ -4,12 +4,10 @@ import cloud.autotests.tests.TestData;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class SearchVacancyPage extends TestData {
-
     SelenideElement
     searchClick = $("[id=a11y-search-input]"),
     valueInput = $("[id=a11y-search-input]"),

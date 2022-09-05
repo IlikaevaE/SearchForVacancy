@@ -4,7 +4,6 @@ import cloud.autotests.helpers.DriverUtils;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static cloud.autotests.tests.TestData.*;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
@@ -12,7 +11,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class GeneratedTests extends TestBase {
-
     @Test
     @DisplayName("Проверяем работу сайта вакансий")
     void openVacancyPage() {
@@ -24,7 +22,6 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Ищем вакансию по скилу Selenium")
     void searchForVacancy() {
-
         searchVacancyPage
                 .openPage()
                 .searchFieldClick()
