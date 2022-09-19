@@ -4,42 +4,45 @@ import cloud.autotests.helpers.DriverUtils;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 import static cloud.autotests.tests.TestData.*;
+import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class GeneratedTests extends TestBase {
+public class SearchTests extends TestBase {
     @Test
     @DisplayName("Проверяем работу сайта вакансий")
     void openVacancyPage() {
-        mainPage
-                .openPage()
-                .checkResult();
+        step("Открываем стартовую страницу hh.ru", ()
+                -> open(baseUrl));
+        step("", ()
+                -> mainPage.checkTitleHeaderOnPage(TITLE));
     }
 
     @Test
-    @DisplayName("Ищем вакансию по скилу Selenium")
+    @DisplayName("Ищем вакансию по параметру Selenium")
     void searchForVacancy() {
         searchVacancyPage
-                .openPage()
+                .openPage(baseUrl)
                 .searchFieldClick()
-                .valueEnter(SEARCH_VALUE)
+                .valueSet(SEARCH_VALUE)
                 .submitSearch()
                 .checkResultParam(VACANCY_NAME)
                 .checkResultParam(ANSWER_VACANCY)
-                .checkResultParam(PARAMETER_1)
-                .checkResultParam(PARAMETER_2);
+                .checkResultParam(TEXT_1)
+                .checkResultParam(TEXT_2);
     }
 
     @Test
     @DisplayName("Проверяем местоположение вакансии")
     void checkCity() {
         searchVacancyPage
-                .openPage()
+                .openPage(baseUrl)
                 .searchFieldClick()
-                .valueEnter(SEARCH_VALUE)
+                .valueSet(SEARCH_VALUE)
                 .submitSearch()
                 .checkResultLocation(CITY_NAME);
     }
@@ -48,7 +51,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Проверяем принадлежность вакансии компании ОФИСМАГ")
     void checkCompany() {
         definedVacancyPage
-                .openPage()
+                .openSecondPage()
                 .checkResultCompany(COMPANY_NAME);
     }
 
@@ -56,7 +59,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Проверяем видимость кнопки 'Откликнуться'")
     void answerVacancyButton() {
         definedVacancyPage
-                .openPage()
+                .openSecondPage()
                 .checkButtonVisible();
     }
 
@@ -65,15 +68,15 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Тест в разработке")
     void answerVacancy() {
         definedVacancyPage
-                .openPage()
+                .openSecondPage()
                 .buttonClick();
     }
 
     @Test
-    @DisplayName("В Concole Log страницы не должно быть ошибок")
+    @DisplayName("В Console Log страницы не должно быть ошибок")
     void consoleShouldNotHaveErrorsTest() {
         step("Открываем сайт вакансий hh.ru", () ->
-                open(BASEURL));
+                open(baseUrl));
         step("В консоле ошибок не должно содержаться текста 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
             String errorText = "SEVERE";

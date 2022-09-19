@@ -16,8 +16,8 @@ public class SearchVacancyPage extends TestData {
     checkLocation = $(".vacancy-serp-item-body");
 
     @Step("Открываем сайт вакансий hh.ru")
-    public SearchVacancyPage openPage() {
-        open(BASEURL);
+    public SearchVacancyPage openPage(String value) {
+        open(value);
         return this;
     }
 
@@ -27,8 +27,8 @@ public class SearchVacancyPage extends TestData {
         return this;
     }
 
-    @Step("Вводим значение \"Selenium\"")
-    public SearchVacancyPage valueEnter(String value) {
+    @Step("Вводим параметр \"Selenium\"")
+    public SearchVacancyPage valueSet(String value) {
         valueInput.sendKeys(value);
         return this;
     }
@@ -41,9 +41,6 @@ public class SearchVacancyPage extends TestData {
 
     @Step("Проверяем, что вакансия с заданными параметрами существует")
     public SearchVacancyPage checkResultParam(String value) {
-        checkParam.shouldHave(Condition.text(value));
-        checkParam.shouldHave(Condition.text(value));
-        checkParam.shouldHave(Condition.text(value));
         checkParam.shouldHave(Condition.text(value));
         return this;
     }

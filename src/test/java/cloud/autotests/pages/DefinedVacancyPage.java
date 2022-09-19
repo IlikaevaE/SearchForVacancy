@@ -5,18 +5,19 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
+
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class DefinedVacancyPage extends TestData{
+public class DefinedVacancyPage extends TestData {
     SelenideElement
             clickOnButton = $(".bloko-button"),
             checkCompanyName = $(".vacancy-serp-item-body"),
             buttonVisible = $(Selectors.byText(ANSWER_VACANCY));
 
     @Step("Открываем сайт вакансий hh.ru")
-    public DefinedVacancyPage openPage() {
-        open(SECOND_URL);
+    public DefinedVacancyPage openSecondPage() {
+        open("/search/vacancy?text=selenium&from=suggest_post&fromSearchLine=true&area=26");
         return this;
     }
 
