@@ -27,9 +27,7 @@ public class SearchTests extends TestBase {
     void searchForVacancy() {
         searchVacancyPage
                 .openPage(baseUrl)
-                .searchFieldClick()
-                .valueSet(SEARCH_VALUE)
-                .submitSearch()
+                .setValue(SEARCH_VALUE)
                 .checkResultParam(VACANCY_NAME)
                 .checkResultParam(ANSWER_VACANCY)
                 .checkResultParam(TEXT_1)
@@ -41,9 +39,7 @@ public class SearchTests extends TestBase {
     void checkCity() {
         searchVacancyPage
                 .openPage(baseUrl)
-                .searchFieldClick()
-                .valueSet(SEARCH_VALUE)
-                .submitSearch()
+                .setValue(SEARCH_VALUE)
                 .checkResultLocation(CITY_NAME);
     }
 
@@ -56,7 +52,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверяем видимость кнопки 'Откликнуться'")
+    @DisplayName("Проверяем видимость кнопки ОТКЛИКНУТЬСЯ")
     void answerVacancyButton() {
         definedVacancyPage
                 .openSecondPage()
@@ -65,7 +61,7 @@ public class SearchTests extends TestBase {
 
     @Test
     @Disabled
-    @DisplayName("Тест в разработке")
+    @DisplayName("Проверяем работоспособность кнопки ОТКЛИКНУТЬСЯ")
     void answerVacancy() {
         definedVacancyPage
                 .openSecondPage()
